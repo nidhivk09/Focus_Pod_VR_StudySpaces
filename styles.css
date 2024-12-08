@@ -1,0 +1,147 @@
+body {
+    font-family: monospace,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    background-image: linear-gradient(to right, rgba(16, 139, 173, 0.759), rgb(10, 68, 215));
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  .teleport{
+    color:white;
+    font-size: 20px;
+  }
+  
+  main {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #030303;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .About{
+    font-family:monospace,sans-serif;
+    display:inline-block;
+    margin-bottom: 2em;
+    /*text-align: center;*/
+    color: rgb(4, 30, 67);
+    background-color: rgb(152, 185, 214);
+    border-radius:20px;
+    padding:20px;
+    margin-top:30px;
+    margin-bottom:50px;
+
+  }
+  
+  iframe {
+    border-width:5px;
+    border-radius:5px;
+    border-color:white;
+    width:fit-content;
+    margin:20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  .environments{
+    font-size: 20px;
+    margin:20px;
+    color:rgb(242, 240, 240);
+    font-family:monospace;
+    
+
+  }
+
+  /*TIMER*/
+
+  /* styles.css */
+/* styles.css */
+
+
+.timer-container {
+  margin: 100px auto;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  max-width: 1000px;
+  height: 500px;
+  background-color: #e9b610;
+  text-align: center;
+  font-size: 40px
+}
+
+
+
+.input-container {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  width: 200px;
+  height:25px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 15px;
+  border-width: 3px;
+  border-color:black;
+  font-size:18px;
+  font-family:monospace;
+}
+
+#countdown {
+  font-size: 80px;
+  color: #555;
+  margin: 20px 0;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  border-color:black;
+  border-width: 2px;;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#startCountdown {
+  background-color: #4caf50;
+  color: white;
+  border-width:2px;
+  border-radius:10px;
+  border-color:black;
+}
+
+#resetCountdown {
+  background-color: #f44336;
+  color: white;
+  border-radius:10px;
+}

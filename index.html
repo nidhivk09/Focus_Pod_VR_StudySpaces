@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D VR Space</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Focus Pod</h1>
+    <h3>Teleport your brain into study mode</h3>
+  </header>
+  <main>
+    <!-- Embed the VR space (assuming a WebGL or iframe-based embed) -->
+    <section class="About">
+      <h3>About Us</h3>
+      <p>Welcome to Focus Pod, a transformative platform designed to elevate the way you learn, focus, and achieve. Our mission is to redefine study environments by integrating immersive AR and VR technologies with advanced tracking and analytics. We aim to create personalized, distraction-free spaces that empower learners to unlock their full potential.
+
+        At the core of our approach is a belief in the power of innovation to enhance education. Whether you're diving into deep focus sessions, collaborating in virtual study groups, or visualizing complex concepts through AR, our space is tailored to support your goals. We are committed to fostering a community where technology and learning converge, providing tools that adapt to your needs and inspire excellence.
+        
+        Join us in exploring a new dimension of learning—where focus meets innovation, and possibilities are limitless.</p>
+    </section>
+    <div class="teleport">
+      <h2>Scroll down to Teleport your brain into study mode!</h2>
+    <div>
+    <div class="timer-container">
+      <h1>Pomodoro Timer</h1>
+      <div class="input-container">
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" min="0" placeholder="Enter minutes">
+        <label for="seconds">Seconds:</label>
+        <input type="number" id="seconds" min="0" max="59" placeholder="Enter seconds">
+      </div>
+      <button id="startCountdown">Start Countdown</button>
+      <button id="resetCountdown" disabled>Reset</button>
+      <p id="countdown">00:00</p>
+    </div>
+    <script src="script.js"></script>
+    <div class="environments">
+      <h2>Choose Your Immersive Environment</h2>
+      <div class="Jedi-Temple">
+        <h3>Jedi Temple</h3>
+        <iframe width="960" height="480" data-original-width="8192" data-original-height="4096" src="https://www.thinglink.com/view/scene/1921844123250197348" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
+      </div>
+      <div class="Cosmos">
+        <h3>Cosmos</h3>
+        <iframe width="960" height="480" data-original-width="8192" data-original-height="4096" src="https://www.thinglink.com/view/scene/1921844123250197348" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
+      </div>
+      <div class="Home">
+        <h3>Home</h3>
+        <iframe width="960" height="480" data-original-width="8192" data-original-height="4096" src="https://www.thinglink.com/view/scene/1921844123250197348" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
+      </div>
+      <div class="Library">
+        <h3>Library</h3>
+        <iframe width="960" height="480" data-original-width="8192" data-original-height="4096" src="https://www.thinglink.com/view/scene/1921844123250197348" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
+      </div>
+      
+
+      
+
+    </div>
+    
+  </main>
+  <footer>
+    
+  </footer>
+</body>
+</html>
